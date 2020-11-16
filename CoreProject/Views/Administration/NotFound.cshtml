@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "ResourceNotFound";
+}
+<div class="alert alert-danger mt-1 mb-1">
+    <h4> 404 Not Found Error</h4>
+    <h5>Roles with id @Model  can't be found</h5>
+
+</div>
+<a asp-controller="Administration" asp-action="ListOfRoles" class="btn btn-outline-success"
+   style="width:auto">Click here to see all Roles</a>
+

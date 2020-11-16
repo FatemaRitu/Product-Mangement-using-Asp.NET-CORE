@@ -1,0 +1,104 @@
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.deps.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.runtimeconfig.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.runtimeconfig.dev.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.dll
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csprojAssemblyReference.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.AssemblyInfoInputs.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.AssemblyInfo.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorAssemblyInfo.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorAssemblyInfo.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorTargetAssemblyInfo.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.genruntimeconfig.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.pdb
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.dll
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.pdb
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\libman.json
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.Views.dll
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.Views.pdb
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.TagHelpers.input.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.TagHelpers.output.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorCoreGenerate.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\Registration.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListOfRoles.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListOfUsers.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\NotFound.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\ProductNotFound.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorTargetAssemblyInfo.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.Views.pdb
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csproj.CopyComplete
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Category\Index.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details1.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csproj.CoreCompileInputs.cache
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUser.cshtml.g.cs
+E:\Evidence\Module9 MVC Core\Project\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.deps.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.runtimeconfig.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.runtimeconfig.dev.json
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.dll
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.pdb
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.Views.dll
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\bin\Debug\netcoreapp2.2\CoreProject.Views.pdb
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.AssemblyInfo.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.TagHelpers.input.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.TagHelpers.output.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorCoreGenerate.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Account\Registration.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUser.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListOfRoles.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListOfUsers.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Administration\NotFound.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details1.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Product\ProductNotFound.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.RazorTargetAssemblyInfo.cs
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.Views.pdb
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.dll
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.pdb
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.genruntimeconfig.cache
+C:\Users\USER\Desktop\CoreProjectSolution\CoreProject\obj\Debug\netcoreapp2.2\CoreProject.csproj.CopyComplete

@@ -1,0 +1,133 @@
+﻿<link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container" ng-app="myApp" ng-controller="myController">
+    <div class="alert alert-info alert-dismissible" role="alert" ng-if="message">
+        {{message}}
+        <button type="button" class="close" aria-label="close">
+            <span aria-hidden="true" ng-click="clearInfo()">&times;</span>
+        </button>
+    </div>
+
+
+    <h4>
+        Category List
+        <button type="button" style="width:auto" class="btn btn-sm btn-info float-right" data-toggle="modal" data-target="#myModal">+ Add New Category</button>
+    </h4>
+    <div>
+        <table class="table table-bordered table-striped  table-sm">
+            <thead>
+                <tr class="bg-secondary text-light">
+                    <th>Index</th>
+                    <th>
+                        Category
+                    </th>
+                    <th>Edit</th>
+                    <td>Delete</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="cat in Category">
+                    <td>{{$index+1}}</td>
+                    <td>{{cat.CategoryName}}</td>
+                    <td><button type="button" class="btn btn-sm btn-info" data-toggle="modal" data-target="#editModal" ng-click="SelectedCategory(cat)">Edit</button></td>
+                    <td><button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#deleteModal" ng-click="SelectedCategory(cat)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <!-- Add Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Add Category</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form class="form-horizontal" id="add" ng-submit="submit()">
+                        <div class="form-group">
+                            <label class="control-label col-sm-4">Category</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" ng-model="newCategory.CategoryName">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Close</button>
+
+                                <button type="submit" id="submit" class="btn btn-primary m-1" data-dismiss="modal" ng-click="SaveCategory()">Save</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="editModal" role="dialog">
+        <div class="modal-dialog">
+            <!--Edit Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Update Category Information</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="control-label col-sm-4">Category Id</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" ng-model="clickedCategory.CategoryId">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-4">Category</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" ng-model="clickedCategory.CategoryName">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Close</button>
+
+                                <button type="submit" class="btn btn-primary m-1" ng-click="UpdateCategory()" data-dismiss="modal">Update</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="deleteModal" role="dialog">
+        <div class="modal-dialog">
+            <!--Delete Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Category Delete</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="text-center text-danger">Delete
+                    <b class="text-uppercase text-info"><u> {{clickedCategory.CategoryName}} </u></b>
+                    's information permanently??</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success m-1" data-dismiss="modal" ng-click="DeleteCategory()">Yes</button>
+                    <button type="button" class="btn btn-danger m-1" data-dismiss="modal">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/angular.js/angular.js"></script>
+<script src="~/js/angular.js/angular-route.js"></script>
+
+<script src="~/js/Module.js"></script>
+<script src="~/js/Service.js"></script>
+<script src="~/js/Controller.js"></script>
+<script src="~/lib/jquery/jquery.js"></script>
+<script src="~/lib/twitter-bootstrap/js/bootstrap.js"></script>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    ViewBag.Title = "All Users";
+}
+
+    <div class="container col-md-6">
+
+        @if (Model.Any())
+        {<a class="btn btn-primary btn-block" asp-controller="Account" asp-action="Registration" style="width:auto"><h4>Add New User</h4></a>
+            <hr />
+            foreach (var user in Model)
+            {
+                <div class="card mb-3 text-md-center" >
+                    <div class="card-header">
+                        User ID: @user.Id
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            User Email Address:  @user.UserName
+                        </h5>
+                    </div>
+                    <div class="card-footer">
+                        <form asp-action="DeleteUser" asp-controller="Administration" method="post" asp-route-id="@user.Id">
+                                                                          
+                            <a asp-controller="Administration" asp-action="EditUser" 
+                               asp-route-id="@user.Id" class="btn btn-primary" style="width:auto">Edit</a>
+                            <span id="confirmDeleteSpan_@user.Id" style="display:none">
+                                <span>
+                                    <hr />
+                                    Are you sure want to to delete this user?
+                                    <button type="submit" class="btn btn-danger">Yes</button>
+                                    <a href="#" class="btn btn-primary" onclick="confirmDelete('@user.Id', false)">No</a>
+                                </span>
+                            </span>
+                            <span id="deleteSpan_@user.Id">
+                                <a href="#" class="btn btn-danger" onclick="confirmDelete('@user.Id',true)">Delete</a>
+                            </span>
+                        </form>
+
+
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="card">
+                <div class="card-header">
+                    No User created yet
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Use the button bellow to create a new user
+                    </h5>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" asp-controller="Account" asp-action="Registration" style="width:auto">Create User</a>
+                </div>
+            </div>
+        }
+    </div>
+@section Scripts{
+    <script src="~/js/customeScript.js"></script>
+}

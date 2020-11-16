@@ -1,0 +1,35 @@
+﻿@model ProductDetailViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+
+            <div class="card-header">
+                <h1 class="text-center">@Model.Product.ProductName</h1>
+            </div>
+            <div class="card-body text-center">
+                @{
+                    var photopath = "~/images/" + (Model.Product.UrlImage ?? "Dress.jpg");
+                }
+
+                <img class="card-img-top imageThumbail" src="@photopath" style="height:150px" asp-append-version="true" />                <hr />
+                <h4>Product ID: @Model.Product.ProductId</h4>
+                <h4>Price: @Model.Product.Price</h4>
+                <h4>Category: @Model.Product.Category.CategoryName</h4>
+            </div>
+            <div class="card-footer text-center">
+                @*<a asp-controller="Product" asp-action="Edit" class="btn btn-info m-1">Edit</a>
+                <a asp-controller="Product" asp-action="Delete" asp-route-id="@Model.Product.ProductId"
+                   class="btn btn-danger m-1"
+                   onclick="return confirm('Are you sure to delete this record?')">
+                    Delete
+                </a>*@
+                <a asp-controller="Product" asp-action="Index" class="btn btn-primary m-1" style="width:auto">Back To Product List</a>
+            </div>
+        </div>
+    </div>
+</div>

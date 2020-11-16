@@ -1,0 +1,74 @@
+﻿@model PaginatedList<Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Index" method="get">
+            <div class="form-group">
+                <p>
+                    Find By Product Name:
+                    <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                    <input type="submit" value="Search" class="btn btn-primary m-1" style="width:auto" />
+                    <a asp-action="Index" class="btn btn-info m-1" style="width:auto">Back to List</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Sq. No</th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParam"]"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]">Product Name</a>
+                </th>
+                <th>Catergory</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int SqNo = 0;
+                foreach (var item in Model)
+                {
+                    SqNo++;
+                    <tr>
+                        <td>@SqNo</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Category.CategoryName</td>
+                        <td>@item.Price</td>
+                        <td><img src="~/images/@item.UrlImage" width="80" height="80" /></td>
+                        <td>
+                            <a asp-controller="Product" asp-action="details1"
+                               asp-route-id="@item.ProductId" class="btn btn-success m-1">View</a>
+                            <a asp-controller="Product" asp-action="Edit" class="btn btn-primary m-1"
+                               style="width:auto" asp-route-id="@item.ProductId">Edit</a>
+                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@item.ProductId"
+                               class="btn btn-danger m-1"
+                               onclick="return confirm('Are you sure to delete this record?')">Delete</a>
+                        </td>
+                    </tr>
+                }}
+        </tbody>
+    </table>
+    @{
+
+        var preDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+
+    <a asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]" style="width:auto" class="btn btn-outline-success m-1 @preDisabled"
+       asp-route-pageNumber="@(Model.PageIndex-1)" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+        <<<<
+    </a>
+
+    <a asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]" style="width:auto" class="btn btn-outline-success m-1 @nextDisabled"
+       asp-route-pageNumber="@(Model.PageIndex+1)" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+        >>>>
+    </a>
+
+</div>

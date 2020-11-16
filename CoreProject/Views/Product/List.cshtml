@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Product>
+@{
+
+    ViewBag.Title = "Product List";
+}
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="row">
+                <div class="offset-lg-1 offset-md-1 offset-sm-1 col-lg-10 col-md-10 col-sm-10 jumbotron">
+                    <div class="row">
+                        <div class="col-7">
+                            <img src="~/images/@item.UrlImage" width="80" height="80" />
+                        </div>
+                        <div class="col-5">
+                            <h5>@item.ProductName</h5>
+                            <p>@item.Category.CategoryName</p>
+                            <p>Tk.@item.Price</p>
+                        </div>
+                    </div>
+
+                    <div class="btn-group btn-group-sm d-flex justify-content-center">
+                        <a asp-controller="Product" asp-action="details"
+                           asp-route-id="@item.ProductId" class="btn btn-primary">View</a>
+                        <a asp-controller="Product"
+                           asp-action="Edit" asp-route-id="@item.ProductId"
+                           class="btn btn-success">Edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
+
